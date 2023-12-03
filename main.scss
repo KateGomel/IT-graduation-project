@@ -1,14 +1,17 @@
 @use "./src/global/fonts";
 @use "./src/global/colors";
-@use "./src/global/mixins/base-font";
+// @use "./src/global/mixins/base-font";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  @include base-font.baseFont;
+  // @include base-font.baseFont;
+  font-family: "Gotham Pro";
+  font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.32px;
-  color: $blake;
+  font-size: 16px;
+  color: colors.$black;
+  line-height: 160%;
 }
