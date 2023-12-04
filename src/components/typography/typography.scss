@@ -4,60 +4,52 @@
 .title {
   font-size: 40px;
   font-weight: 900;
-  line-height: 160%;
   letter-spacing: 3.2px;
 }
 
 .title-h3 {
   font-size: 24px;
   font-weight: 700;
-  line-height: 160%;
   letter-spacing: 0.48px;
 }
 
 .title-h4 {
   font-size: 20px;
   font-weight: 900;
-  line-height: 160%;
   letter-spacing: 1.6px;
 }
 
 .title-h5 {
   font-weight: 900;
-  line-height: 160%;
   letter-spacing: 1.28px;
 }
 
 .header__app-text {
   font-size: 14px;
-  line-height: 160%;
   color: colors.$white;
   letter-spacing: 0.28px;
 }
 
 .header__app-menu {
   font-weight: 700;
-  line-height: 160%;
   color: colors.$font;
   letter-spacing: 0.32px;
 }
 
 .banner-text {
   font-size: 22px;
-  line-height: 160%;
   letter-spacing: 0.44px;
   color: colors.$white;
 }
 
 .breadcrumbs {
   font-size: 12px;
-  line-height: 160%;
   letter-spacing: 0.24px;
 }
 
 .footer__text {
   font-size: 14px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.28px;
   color: colors.$white;
 }
@@ -69,7 +61,6 @@
 .new-price {
   font-size: 24px;
   font-weight: 900;
-  line-height: 160%;
   letter-spacing: 0.48px;
   color: colors.$black;
 }
