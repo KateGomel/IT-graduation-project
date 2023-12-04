@@ -1,1 +1,39 @@
 @use "../../global/colors";
+
+.banner__btn {
+  width: 270px;
+  height: 60px;
+  border-radius: 100px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: colors.$font;
+  background: colors.$white;
+  border: none;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    color: colors.$white;
+    background: colors.$green;
+    border: 1px solid colors.$white;
+  }
+}
+
+.btn-170 {
+  width: 170px;
+  height: 50px;
+}
+
+.btn-220 {
+  width: 220px;
+  height: 40px;
+}
+
+.btn-270 {
+  width: 270px;
+  height: 50px;
+}
+
+.btn-280 {
+  width: 280px;
+  height: 50px;
+}
