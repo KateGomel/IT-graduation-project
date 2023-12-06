@@ -18,6 +18,38 @@
   }
 }
 
+.btn-wt {
+  border-radius: 100px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: colors.$green;
+  background: colors.$white;
+  border: 1px solid colors.$green;
+  cursor: pointer;
+
+  &:hover {
+    color: colors.$white;
+    background: colors.$green;
+    border: none;
+  }
+}
+
+.btn-gr {
+  border-radius: 100px;
+  flex-shrink: 0;
+  font-weight: 700;
+  color: colors.$white;
+  background: colors.$green;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    color: colors.$green;
+    background: colors.$white;
+    border: 1px solid colors.$green;
+  }
+}
+
 .btn-170 {
   width: 170px;
   height: 50px;

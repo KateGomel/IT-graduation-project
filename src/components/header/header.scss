@@ -1,0 +1,43 @@
+@use "../../global/colors";
+.general {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-topline {
+  background: colors.$blue;
+  height: 50px;
+
+  &--social {
+    display: flex;
+    width: 119px;
+    justify-content: space-between;
+  }
+
+  &--contact {
+    display: flex;
+    gap: 40px;
+  }
+
+  &--address {
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+  }
+
+  &--phone {
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+  }
+}
+
+.header-menu {
+  background: colors.$white;
+  height: 100px;
+}
