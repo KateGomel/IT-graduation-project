@@ -35,6 +35,10 @@
   background: colors.$white;
   height: 100px;
 
+  &--logo {
+    padding-right: 89px;
+  }
+
   &--list {
     width: 1048px;
   }
@@ -45,5 +49,6 @@
 
   &--cart {
     padding-left: 178px;
+    padding-right: 40px;
   }
 }
