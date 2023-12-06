@@ -8,8 +8,8 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-topline header__app-text general">
-        <div class="header-topline--social">
+      <div class="header__topline header__topline--text general">
+        <div class="header__topline--social flex-between">
           <a href="#">
             <img src="/images/icon/facebook wt.png" alt="facebook" />
           </a>
@@ -23,24 +23,83 @@
             <img src="/images/icon/tiktok wt.png" alt="tiktok" />
           </a>
         </div>
-        <div class="header-topline--contact">
-          <div class="header-topline--address">
+        <div class="header__topline--contact">
+          <div class="header__topline--address flex-between">
             <a href="#">
-              <img src="/images/icon/address wt.png" alt="address" />
-            </a>
+              <img src="/images/icon/address wt.png" alt="address"
+            /></a>
             92 Street St, New Yoark, NY 10013
           </div>
-          <div class="header-topline--phone">
-            <a href="#">
-              <img src="/images/icon/phone wt.png" alt="phone" />
-              +1 800 235 958 556
-            </a>
+          <div class="header__topline--phone flex-between">
+            <a href="tel:+1800235958556">
+              <img src="/images/icon/phone wt.png" alt="phone"
+            /></a>
+            +1 800 235 958 556
           </div>
         </div>
       </div>
-      <div class="header__menu header__app-menu general">
-        <img src="/public/images/logo.svg" alt="logo" />
+      <div class="header__menu header__menu--text general flex-between">
+        <img src="/images/logo.svg" alt="logo" />
+
+        <ul class="header__menu--list flex-between">
+          <li class="header__menu--item">
+            <a href="#">Home</a>
+          </li>
+          <img
+            src="/images/vertical.png"
+            alt="vertical"
+            class="header__menu--vertical"
+          />
+          <li class="header__menu--item">
+            <a href="#">Products</a>
+          </li>
+          <img
+            src="/images/vertical.png"
+            alt="vertical"
+            class="header__menu--vertical"
+          />
+          <li class="header__menu--item">
+            <a href="#">Restore Your Microbiome</a>
+          </li>
+          <img
+            src="/images/vertical.png"
+            alt="vertical"
+            class="header__menu--vertical"
+          />
+          <li class="header__menu--item">
+            <a href="#">Health Issues</a>
+          </li>
+          <img
+            src="/images/vertical.png"
+            alt="vertical"
+            class="header__menu--vertical"
+          />
+          <li class="header__menu--item">
+            <a href="#">FAQ</a>
+          </li>
+          <img
+            src="/images/vertical.png"
+            alt="vertical"
+            class="header__menu--vertical"
+          />
+          <li class="header__menu--item">
+            <a href="#">Help and Support</a>
+          </li>
+          <img
+            src="/images/vertical.png"
+            alt="vertical"
+            class="header__menu--vertical"
+          />
+          <li class="header__menu--item">
+            <a href="#">Consulting/Coaching</a>
+          </li>
+        </ul>
+        <img src="/images/kart.png" alt="kart" class="header__menu--cart" />
+        <button class="header__menu--btn btn-gr btn-170">Call back</button>
       </div>
+      <main>
+        <section class="banner"></section>
+      </main>
     </header>
     <script type="module" src="/main.js"></script>
   </body>

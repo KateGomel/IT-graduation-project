@@ -26,6 +26,7 @@ a {
   color: inherit;
 }
 
-ul {
-  list-style-type: none;
+.flex-between {
+  display: flex;
+  justify-content: space-between;
 }
