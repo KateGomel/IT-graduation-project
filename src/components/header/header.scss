@@ -1,13 +1,4 @@
 @use "../../global/colors";
-.general {
-  max-width: 1920px;
-  width: 100%;
-  display: flex;
-  padding-left: 60px;
-  padding-right: 60px;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .header__topline {
   background: colors.$blue;
@@ -48,7 +39,7 @@
   }
 
   &--cart {
-    padding-left: 178px;
+    // padding-left: 178px;
     padding-right: 40px;
   }
 }
