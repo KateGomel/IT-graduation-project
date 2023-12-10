@@ -2,17 +2,13 @@
 
 .banner {
   max-width: 1920px;
-  width: 100%;
+  width: 100vw;
   height: 570px;
-  background-image: url(../../../images/banner-cover.png);
+  background-image: url(../../../images/banner.png);
   background-size: auto;
   overflow: hidden;
   position: relative;
 
-  &__mask {
-    position: absolute;
-    left: 380px;
-  }
   &__title {
     padding-top: 115px;
   }
@@ -20,8 +16,8 @@
     background: colors.$blue;
     vertical-align: baseline;
     height: 48px;
-    margin-left: -12px;
-    margin-right: -12px;
+    margin-left: -14px;
+    margin-right: -5px;
     padding-left: 10px;
     padding-right: 10px;
   }
