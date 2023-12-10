@@ -1,0 +1,14 @@
+@use "../../global/colors";
+
+.products {
+  max-width: 1920px;
+  height: 782px;
+  background-color: colors.$lightgrey;
+  margin: 0 auto;
+
+  &__title {
+    color: colors.$black;
+    margin-top: 85px;
+    margin-bottom: -12px;
+  }
+}

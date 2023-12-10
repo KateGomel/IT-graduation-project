@@ -10,5 +10,6 @@ import "./src/components/image-product/image-product";
 import "./src/components/header/header";
 import "./src/components/banner/banner";
 import "./src/components/mission/mission";
+import "./src/components/products/products";
 
 import "./src/global/utils.scss";

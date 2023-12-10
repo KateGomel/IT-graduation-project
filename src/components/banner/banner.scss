@@ -5,9 +5,10 @@
   width: 100vw;
   height: 570px;
   background-image: url(../../../images/banner.png);
+  margin: 0 auto;
 
   &__title {
-    padding-top: 92px;
+    padding-top: 95px;
   }
   span {
     background: colors.$blue;
@@ -24,15 +25,15 @@
   }
 
   &__text-tr2 {
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   &__text-tr3 {
-    padding-bottom: 35px;
+    padding-bottom: 40px;
   }
 
   &__trigger-img {
-    padding-right: 12px;
+    padding-right: 7px;
   }
 }
