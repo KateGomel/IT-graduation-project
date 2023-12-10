@@ -1,26 +1,5 @@
 @use "./colors";
 
-.text-center {
-  text-align: center;
-}
-
-.text-up {
-  text-transform: uppercase;
-}
-
-.text-center-up {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.input {
-  flex-shrink: 0;
-  border-radius: 10px;
-  border: 1px solid colors.$darkgrey;
-  background: colors.$lightgrey;
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1) inset;
-}
-
 a {
   text-decoration: none;
   color: inherit;

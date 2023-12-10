@@ -1,13 +1,11 @@
 @use "./src/global/fonts";
 @use "./src/global/colors";
-// @use "./src/global/mixins/base-font";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  // @include base-font.baseFont;
   font-family: "Gotham Pro";
   font-style: normal;
   font-weight: 400;
@@ -17,8 +15,8 @@ body {
 }
 
 .general {
-
-  width: 1920px;
+  max-width: 1920px;
+  width: 100vw;
   display: flex;
   padding-left: 60px;
   padding-right: 60px;

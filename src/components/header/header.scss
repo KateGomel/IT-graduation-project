@@ -25,6 +25,8 @@
 .header__menu {
   background: colors.$white;
   height: 100px;
+  display: flex;
+  justify-content: flex-start;
 
   &--logo {
     padding-right: 89px;
@@ -39,7 +41,7 @@
   }
 
   &--cart {
-    // padding-left: 178px;
     padding-right: 40px;
+    padding-left: 178px;
   }
 }
