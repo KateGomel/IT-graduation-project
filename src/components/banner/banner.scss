@@ -7,9 +7,14 @@
   background-image: url(../../../images/banner.png);
   margin: 0 auto;
 
-  &__title {
-    padding-top: 95px;
+  &__line {
+    margin-left: 0;
   }
+
+  &__title {
+    padding-top: 92px;
+  }
+
   span {
     background: colors.$blue;
     vertical-align: baseline;

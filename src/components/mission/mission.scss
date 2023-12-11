@@ -8,42 +8,43 @@
 
   &__title {
     color: colors.$black;
-    margin-top: 85px;
-    margin-bottom: -12px;
+    margin-top: 90px;
+    margin-left: -12px;
+    margin-right: -12px;
   }
 
-  &__foto {
-    padding-top: 40px;
-    padding-left: 12px;
-    padding-right: 0px;
-  }
+  // &__foto {
+  //   padding-top: 40px;
+  //   padding-left: 12px;
+  //   padding-right: 0px;
+  // }
 
-  &__text {
-    margin-left: -15px;
-    margin-top: 120px;
-    margin-bottom: 144px;
-  }
+  // &__text {
+  //   margin-left: -15px;
+  //   margin-top: 120px;
+  //   margin-bottom: 144px;
+  // }
 
-  &__text-title {
-    background-color: colors.$blue;
-    color: colors.$white;
-    display: flex;
-    align-items: center;
-    padding-top: 21px;
-    padding-bottom: 21px;
-    margin-right: -39px;
-  }
+  // &__text-title {
+  //   background-color: colors.$blue;
+  //   color: colors.$white;
+  //   display: flex;
+  //   align-items: center;
+  //   padding-top: 21px;
+  //   padding-bottom: 21px;
+  //   margin-right: -39px;
+  // }
 
-  &__text-apostrof {
-    padding-right: 20px;
-    padding-left: 30px;
-  }
+  // &__text-apostrof {
+  //   padding-right: 20px;
+  //   padding-left: 30px;
+  // }
 
-  &__text-article {
-    background-color: colors.$green;
-    color: colors.$white;
-    margin-right: -39px;
-    padding: 21px 30px;
-    letter-spacing: 0.32px;
-  }
+  // &__text-article {
+  //   background-color: colors.$green;
+  //   color: colors.$white;
+  //   margin-right: -39px;
+  //   padding: 21px 30px;
+  //   letter-spacing: 0.32px;
+  // }
 }
