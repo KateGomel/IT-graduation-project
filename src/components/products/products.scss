@@ -12,4 +12,22 @@
     color: colors.$black;
     margin: 85px 12px -12px 12px;
   }
+
+  &__card {
+    display: block;
+    background-color: colors.$white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    max-width: 270px;
+    max-height: 380px;
+
+    &-title {
+      padding-top: 33px;
+      margin: 0 auto;
+      max-width: 220px;
+      & span {
+        color: colors.$green;
+      }
+    }
+  }
 }
