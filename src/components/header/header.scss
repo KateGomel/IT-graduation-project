@@ -33,15 +33,16 @@
   }
 
   &--list {
-    width: 1048px;
+    min-width: 1048px;
+    gap: 19px;
   }
 
   &--item:hover {
     color: colors.$green;
   }
 
-  &--cart {
-    padding-right: 40px;
+  &--option {
+    gap: 40px;
     padding-left: 178px;
   }
 }
