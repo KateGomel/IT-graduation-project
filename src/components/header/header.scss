@@ -25,24 +25,28 @@
 .header__menu {
   background: colors.$white;
   height: 100px;
-  display: flex;
-  justify-content: flex-start;
+  gap: 89px;
 
-  &--logo {
-    padding-right: 89px;
-  }
+  // &--logo {
+  //   padding-right: 89px;
+  // }
 
   &--list {
-    min-width: 1048px;
+    width: 1048px;
     gap: 19px;
   }
 
-  &--item:hover {
-    color: colors.$green;
-  }
+  // &--item {
+  //   display: flex;
+
+  // }
+
+  // &--item:hover {
+  //   color: colors.$green;
+  // }
 
   &--option {
     gap: 40px;
-    padding-left: 178px;
+    margin-left: 86px;
   }
 }
