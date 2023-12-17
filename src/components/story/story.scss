@@ -2,11 +2,11 @@
 
 .story {
   min-height: 1252px;
-  background-image: url(../../../images/story/story.png);
+  background-color: colors.$green;
   background-position: center;
   background-size: cover;
   position: relative;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
 
   &__vector1 {
     position: absolute;
@@ -24,6 +24,17 @@
     position: absolute;
     top: 499px;
     right: 123px;
+  }
+
+  &__delta-lf {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__delta-rt {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   &__sect-title {
