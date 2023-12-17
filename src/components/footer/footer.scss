@@ -1,0 +1,7 @@
+@use "../../global/colors";
+
+.footer {
+  display: flex;
+  background-color: colors.$blue;
+  height: 308px;
+}

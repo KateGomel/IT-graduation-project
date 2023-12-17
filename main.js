@@ -12,5 +12,6 @@ import "./src/components/mission/mission";
 import "./src/components/products/products";
 import "./src/components/product-card/product-card";
 import "./src/components/story/story";
+import "./src/components/footer/footer";
 
 import "./src/global/utils.scss";
