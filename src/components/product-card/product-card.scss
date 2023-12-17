@@ -9,26 +9,31 @@
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   width: 270px;
   height: 380px;
-  padding-top: 33px;
+
   margin-top: 41px;
-  position: relative;
 
   &__title {
     width: 220px;
+    padding-top: 33px;
+    padding-bottom: 32px;
     & span {
       color: colors.$green;
     }
   }
 
+  &__img {
+    position: relative;
+
+    &--milk {
+      position: absolute;
+      z-index: 21;
+      top: 0;
+      left: 0;
+    }
+  }
+
   &__btn {
-    margin-bottom: 20px;
-  }
-
-  &__milk {
-    position: absolute;
-  }
-
-  &__clover {
-    position: absolute;
+    padding-top: 42px;
+    padding-bottom: 20px;
   }
 }
