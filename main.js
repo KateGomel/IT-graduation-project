@@ -9,7 +9,7 @@ import "./src/components/button/button";
 import "./src/components/header/header";
 import "./src/components/banner/banner";
 import "./src/components/mission/mission";
-import "./src/components/product-img/product-img";
 import "./src/components/products/products";
+import "./src/components/product-card/product-card";
 
 import "./src/global/utils.scss";
