@@ -1,14 +1,9 @@
 @use "../../global/colors";
 
 .banner {
-  max-width: 1920px;
-  width: 100%;
   height: 570px;
   background-image: url(../../../images/banner.png);
   background-position: center;
-  margin: 0 auto;
-  padding-left: 60px;
-  padding-right: 60px;
 
   &__line {
     margin-left: 0;

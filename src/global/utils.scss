@@ -10,6 +10,10 @@ a {
   justify-content: space-between;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .general {
   max-width: 1920px;
   width: 100%;
@@ -17,6 +21,5 @@ a {
   padding-left: 60px;
   padding-right: 60px;
   justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
 }

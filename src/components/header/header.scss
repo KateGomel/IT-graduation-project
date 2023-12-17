@@ -1,52 +1,45 @@
 @use "../../global/colors";
 
-.header__topline {
-  background: colors.$blue;
-  height: 50px;
+.header {
+  &__topline {
+    background: colors.$blue;
+    height: 50px;
 
-  &--social {
-    width: 119px;
+    &--social {
+      width: 119px;
+    }
+
+    &--contact {
+      display: flex;
+      gap: 40px;
+    }
+
+    &--address {
+      width: 265px;
+    }
+
+    &--phone {
+      width: 165px;
+    }
   }
 
-  &--contact {
-    display: flex;
-    gap: 40px;
-  }
+  &__menu {
+    background: colors.$white;
+    height: 100px;
+    gap: 89px;
 
-  &--address {
-    width: 265px;
-  }
+    &--nav {
+      width: 1048px;
+      gap: 19px;
+    }
 
-  &--phone {
-    width: 165px;
-  }
-}
+    &--item:hover {
+      color: colors.$green;
+    }
 
-.header__menu {
-  background: colors.$white;
-  height: 100px;
-  gap: 89px;
-
-  // &--logo {
-  //   padding-right: 89px;
-  // }
-
-  &--list {
-    width: 1048px;
-    gap: 19px;
-  }
-
-  // &--item {
-  //   display: flex;
-
-  // }
-
-  // &--item:hover {
-  //   color: colors.$green;
-  // }
-
-  &--option {
-    gap: 40px;
-    margin-left: 86px;
+    &--option {
+      gap: 40px;
+      margin-left: 86px;
+    }
   }
 }
