@@ -6,6 +6,25 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  padding-bottom: 60px;
+
+  &__vector1 {
+    position: absolute;
+    top: 106px;
+    left: 115px;
+  }
+
+  &__vector2 {
+    position: absolute;
+    top: 770px;
+    left: 116px;
+  }
+
+  &__vector3 {
+    position: absolute;
+    top: 499px;
+    right: 123px;
+  }
 
   &__sect-title {
     margin: 85px 12px -12px;
