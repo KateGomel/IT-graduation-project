@@ -2,7 +2,9 @@
 
 .story {
   min-height: 1252px;
+  // background-image: url('../../../images/story/story.png');
   background-color: colors.$green;
+  z-index: -2;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -27,12 +29,20 @@
   }
 
   &__delta-lf {
+    max-width: 445px;
+    width: 100%;
+    height: auto;
     position: absolute;
+    z-index: -1;
     top: 0;
     left: 0;
   }
   &__delta-rt {
+    max-width: 445px;
+    width: 100%;
+    height: auto;
     position: absolute;
+    z-index: -1;
     bottom: 0;
     right: 0;
   }
