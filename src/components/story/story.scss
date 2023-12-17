@@ -1,0 +1,13 @@
+@use "../../global/colors";
+
+.story {
+  min-height: 1252px;
+  background-image: url(../../../images/story.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  &__title {
+    margin: 85px 12px -12px 12px;
+  }
+}
