@@ -5,12 +5,9 @@
   background-image: url(../../../images/banner.png);
   background-position: center;
 
-  &__line {
-    margin-left: 0;
-  }
-
   &__title {
     padding-top: 92px;
+    padding-left: 11px;
   }
 
   span {
@@ -21,6 +18,10 @@
     padding-left: 10px;
     padding-right: 7px;
     padding-top: 3px;
+  }
+
+  &__trigger-text {
+    padding-left: 11px;
   }
 
   &__text-tr1 {
