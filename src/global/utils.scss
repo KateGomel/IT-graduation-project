@@ -5,11 +5,6 @@ a {
   color: inherit;
 }
 
-.flex-between {
-  display: flex;
-  justify-content: space-between;
-}
-
 .text-center {
   text-align: center;
 }
@@ -23,6 +18,11 @@ a {
   text-transform: uppercase;
 }
 
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .align-center {
   align-items: center;
 }
@@ -30,10 +30,8 @@ a {
 .general {
   max-width: 1920px;
   width: 100%;
-  display: flex;
   padding-left: 60px;
   padding-right: 60px;
-  justify-content: space-between;
   margin: 0 auto;
 }
 
