@@ -5,6 +5,9 @@
   background-color: colors.$white;
 
   &__foto {
+    max-width: 573px;
+    width: 100%;
+    height: auto;
     padding-top: 40px;
   }
 

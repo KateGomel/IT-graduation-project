@@ -23,11 +23,16 @@ a {
   justify-content: space-between;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 .align-center {
   align-items: center;
 }
 
-.justify-content-center {
+.content-center {
   justify-content: center;
 }
 
