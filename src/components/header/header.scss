@@ -29,6 +29,14 @@
     height: 100px;
     gap: 89px;
 
+    @media (max-width: 1700px) {
+      gap: 40px;
+    }
+
+    @media (max-width: 1590px) {
+      gap: 15px;
+    }
+
     &--nav {
       max-width: 1048px;
       width: 100%;
@@ -41,6 +49,14 @@
     &--option {
       gap: 40px;
       margin-left: 86px;
+
+      @media (max-width: 1790px) {
+        margin-left: 0;
+      }
+
+      @media (max-width: 1590px) {
+        gap: 15px;
+      }
     }
   }
 }
