@@ -15,5 +15,8 @@ import "./src/components/story/story";
 import "./src/components/carousel/carousel";
 import "./src/components/map/map";
 import "./src/components/footer/footer";
+import "./src/components/call-back/call-back";
+import "./src/components/accordion/accordion";
+import "./src/components/mobal-menu/mobal-menu";
 
 import "./src/global/utils.scss";

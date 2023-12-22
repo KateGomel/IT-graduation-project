@@ -4,4 +4,27 @@
   display: flex;
   background-color: colors.$blue;
   height: 308px;
+
+  &__logo {
+    margin-top: 60px;
+  }
+
+  &__copy-write {
+    opacity: 0.5;
+    margin-top: 102px;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 130px;
+    justify-content: space-around;
+    color: colors.$white;
+    margin-top: 53px;
+    margin-left: 140px;
+  }
+
+  &__title {
+    padding-bottom: 11px;
+  }
 }

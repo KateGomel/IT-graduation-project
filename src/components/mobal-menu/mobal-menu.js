@@ -1,0 +1,1 @@
+import "./mobal-menu.scss";
