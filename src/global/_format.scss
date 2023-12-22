@@ -1,0 +1,6 @@
+@use "./colors";
+
+.section-title {
+  color: colors.$black;
+  margin: 85px 12px -12px;
+}

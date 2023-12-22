@@ -1,0 +1,21 @@
+@use "../../global/colors";
+
+.map {
+  background-image: url(../../../public/images/map/map-desk.png);
+  background-position: center;
+  min-height: 360px;
+
+  &__contacts {
+    margin-top: 80px;
+    width: 370px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: colors.$white;
+    padding: 48px 77px 48px 30px;
+    display: none;
+  }
+
+  &__adress {
+    padding-bottom: 26px;
+  }
+}
