@@ -3,9 +3,9 @@
 .products {
   min-height: 782px;
   background-color: colors.$lightgrey;
+  padding-bottom: 100px;
 
   &__btn {
     margin-top: 50px;
-    margin-bottom: 100px;
   }
 }
