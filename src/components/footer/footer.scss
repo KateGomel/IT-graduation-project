@@ -20,7 +20,7 @@
   &__content {
     display: flex;
     flex-wrap: wrap;
-    gap: 130px;
+    gap: 129px;
     justify-content: space-around;
     color: colors.$white;
     margin-top: 53px;
@@ -28,5 +28,14 @@
 
   &__title {
     padding-bottom: 11px;
+  }
+
+  &__social {
+    margin-right: -12px;
+  }
+  &__social-link {
+    display: inline-block;
+    padding-top: 9px;
+    padding-right: 5px;
   }
 }

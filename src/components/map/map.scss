@@ -6,6 +6,7 @@
   min-height: 360px;
 
   &__contacts {
+    display: block;
     margin-top: 80px;
     width: 370px;
     height: 200px;
@@ -15,6 +16,12 @@
   }
 
   &__adress {
+    display: flex;
     padding-bottom: 26px;
+    gap: 26px;
+  }
+  &__phone {
+    display: flex;
+    gap: 22px;
   }
 }

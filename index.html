@@ -26,7 +26,7 @@
         </div>
         <div class="header__topline--contact topline-text">
           <div class="header__topline--address flex-between align-center">
-            <a href="#map">
+            <a href="#map" target="_blank">
               <img src="/images/icon/adress-desk.svg" alt="address" />
               <span class="header__topline--address-text">
                 92 Street St, New Yoark, NY 10013
@@ -34,7 +34,7 @@
             </a>
           </div>
           <div class="header__topline--phone flex-between align-center">
-            <a href="tel:+1800235958556">
+            <a href="tel:+1800235958556" type="tel">
               <img src="/images/icon/phone-cont-desk.svg" alt="phone" />
               <span class="header__topline--phone-number">
                 +1 800 235 958 556
@@ -52,7 +52,12 @@
         <nav class="header__menu--nav menu-text d-xs-none d-cust1-block">
           <ul class="header__menu--list flex-between align-center">
             <li class="header__menu--item">
-              <a href="index.html" class="header__menu--item-active">Home</a>
+              <a
+                href="index.html"
+                class="header__menu--item-active"
+                target="_blank"
+                >Home</a
+              >
             </li>
 
             <li class="header__menu--verticai">
@@ -64,7 +69,7 @@
             </li>
 
             <li class="header__menu--item">
-              <a href="#product">Products</a>
+              <a href="#product" target="_blank">Products</a>
             </li>
 
             <li class="header__menu--verticai">
@@ -100,7 +105,7 @@
             </li>
 
             <li class="header__menu--item">
-              <a href="#">FAQ</a>
+              <a href="#" target="_blank">FAQ</a>
             </li>
 
             <li class="header__menu--verticai">
@@ -180,7 +185,10 @@
                   />
                   <strong>Restores intestinal microflora</strong>
                 </p>
-                <a href="#" class="banner__btn flex-center align-center"
+                <a
+                  href="#"
+                  class="banner__btn flex-center align-center"
+                  target="_blank"
                   >Go catalog</a
                 >
               </div>
@@ -253,6 +261,7 @@
                 <a
                   href="#"
                   class="product-card__btn btn-wt btn-220 flex-center align-center"
+                  target="_blank"
                   >Detail</a
                 >
               </div>
@@ -312,7 +321,10 @@
           </div>
 
           <div class="products__btn flex-center">
-            <a href="#" class="btn-gr btn-270 flex-center align-center"
+            <a
+              href="#"
+              class="btn-gr btn-270 flex-center align-center"
+              target="_blank"
               >All products</a
             >
           </div>
@@ -434,11 +446,18 @@
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <div class="map__contacts">
-                <p id="map" class="map__adress">
-                  92 Street St, New Yoark, NY 10013
-                </p>
-                <p class="map__phone">+1 800 235 958 556</p>
+              <div id="map" class="map__contacts">
+                <div class="map__adress">
+                  <img src="/images/icon/map-adress-desk.svg" alt="adress" />
+                  <span>92 Street St, New Yoark, NY 10013</span>
+                </div>
+                <div class="map__phone">
+                  <img
+                    src="/public/images/icon/map-phone-desk.svg"
+                    alt="number-phone"
+                  />
+                  <span>+1 800 235 958 556</span>
+                </div>
               </div>
             </div>
           </div>
@@ -456,12 +475,12 @@
             <h5 class="footer__title title-h5 text-up">menu</h5>
             <nav class="footer-text">
               <ul>
-                <li><a href="#product"> Products</a></li>
-                <li>Restore Your Microbiome</li>
-                <li>Health Issues</li>
-                <li>FAQ</li>
-                <li>Help and Support</li>
-                <li>Consulting/Coaching</li>
+                <li><a href="#product" target="_blank"> Products</a></li>
+                <li><a href="#">Restore Your Microbiome</a></li>
+                <li><a href="#">Health Issues</a></li>
+                <li><a href="#" target="_blank">FAQ</a></li>
+                <li><a href="#">Help and Support</a></li>
+                <li><a href="#">Consulting/Coaching</a></li>
               </ul>
             </nav>
           </div>
@@ -469,16 +488,31 @@
             <h5 class="footer__title title-h5 text-up">products</h5>
             <div class="footer-text">
               <ul>
-                <li>Goat Milk Kefir – Plain</li>
-                <li>Goat Milk Kefir – Vanilla</li>
-                <li>Goat Kefi-Meal – Chia seeds</li>
-                <li>Goat Kefi- Meal – Flax seeds</li>
-                <li>Oksy-G measure glass</li>
+                <li><a href="#">Goat Milk Kefir – Plain</a></li>
+                <li><a href="#">Goat Milk Kefir – Vanilla</a></li>
+                <li><a href="#">Goat Kefi-Meal – Chia seeds</a></li>
+                <li><a href="#">Goat Kefi- Meal – Flax seeds</a></li>
+                <li><a href="#">Oksy-G measure glass</a></li>
               </ul>
             </div>
           </div>
           <div class="footer__social">
             <h5 class="footer__title title-h5 text-up">social media</h5>
+
+            <a href="#" class="footer__social-link"
+              ><img
+                src="/images/icon/footer-facebook.svg"
+                alt="footer-facebook"
+            /></a>
+            <a href="#" class="footer__social-link"
+              ><img src="/images/icon/footer-insta.svg" alt="footer-insta.svg"
+            /></a>
+            <a href="#" class="footer__social-link"
+              ><img src="/images/icon/footer-tiktok.svg" alt="footer-tiktok"
+            /></a>
+            <a href="#" class="footer__social-link"
+              ><img src="/images/icon/footer-youtube.svg" alt="footer-youtube"
+            /></a>
           </div>
         </div>
       </div>
