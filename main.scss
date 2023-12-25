@@ -1,6 +1,7 @@
 @use "./src/global/fonts";
 @use "./src/global/colors";
 @use "./src/global/display";
+@use "./src/global/input";
 @use "./src/global/format";
 
 * {
@@ -15,4 +16,9 @@ body {
   color: colors.$black;
   line-height: 1.6;
   letter-spacing: 0.32px;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    letter-spacing: 0.24px;
+  }
 }
