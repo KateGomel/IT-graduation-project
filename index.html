@@ -9,40 +9,46 @@
 
   <body>
     <header class="header">
-      <div class="header__topline general flex-between">
-        <div class="header__topline--social flex-between align-center">
-          <a href="#">
-            <img src="/images/icon/header-facebook.svg" alt="header-facebook" />
-          </a>
-          <a href="#">
-            <img src="/images/icon/header-insta.svg" alt="header-insta" />
-          </a>
-          <a href="#">
-            <img src="/images/icon/header-youtube.svg" alt="header-youtube" />
-          </a>
-          <a href="#">
-            <img src="/images/icon/header-tiktok.svg" alt="header-tiktok" />
-          </a>
-        </div>
-        <div class="header__topline--contact topline-text">
-          <div class="header__topline--address flex-between align-center">
-            <a href="#map" target="_blank">
-              <img src="/images/icon/adress-desk.svg" alt="address" />
-              <span class="header__topline--address-text">
-                92 Street St, New Yoark, NY 10013
-              </span>
+      <div class="d-xs-none d-md-block">
+        <div class="header__topline general flex-between">
+          <div class="header__topline--social flex-between align-center">
+            <a href="#">
+              <img
+                src="/images/icon/header-facebook.svg"
+                alt="header-facebook"
+              />
+            </a>
+            <a href="#">
+              <img src="/images/icon/header-insta.svg" alt="header-insta" />
+            </a>
+            <a href="#">
+              <img src="/images/icon/header-youtube.svg" alt="header-youtube" />
+            </a>
+            <a href="#">
+              <img src="/images/icon/header-tiktok.svg" alt="header-tiktok" />
             </a>
           </div>
-          <div class="header__topline--phone flex-between align-center">
-            <a href="tel:+1800235958556" type="tel">
-              <img src="/images/icon/phone-cont-desk.svg" alt="phone" />
-              <span class="header__topline--phone-number">
-                +1 800 235 958 556
-              </span>
-            </a>
+          <div class="header__topline--contact topline-text">
+            <div class="header__topline--address flex-between align-center">
+              <a href="#map" target="_blank">
+                <img src="/images/icon/adress-desk.svg" alt="address" />
+                <span class="header__topline--address-text">
+                  92 Street St, New Yoark, NY 10013
+                </span>
+              </a>
+            </div>
+            <div class="header__topline--phone flex-between align-center">
+              <a href="tel:+1800235958556" type="tel">
+                <img src="/images/icon/phone-cont-desk.svg" alt="phone" />
+                <span class="header__topline--phone-number">
+                  +1 800 235 958 556
+                </span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
+      <div class="header__topline-mobal d-xs-block d-md-none"></div>
       <div class="header__menu general flex-between align-center">
         <img
           src="/images/logo.svg"
@@ -134,6 +140,13 @@
           </ul>
         </nav>
 
+        <nav class="header__menu--mobal d-xs-block d-cust1-none">
+          <img
+            src="/public/images/icon/menu-mobal.svg"
+            alt="menu-mobal"
+            class="header__menu--mobal-img"
+          />
+        </nav>
         <div class="header__menu--option flex-between">
           <img
             src="/images/icon/card-desk.svg"
@@ -517,8 +530,6 @@
         </div>
       </div>
     </div>
-
-    <div style="height: 150px"></div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

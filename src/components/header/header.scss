@@ -30,6 +30,13 @@
     &--phone-number {
       padding-left: 6px;
     }
+
+    &-mobal {
+      min-width: 320px;
+      width: 100%;
+      height: 10px;
+      background-color: colors.$blue;
+    }
   }
 
   &__menu {
@@ -49,6 +56,17 @@
     &--nav {
       max-width: 1048px;
       width: 100%;
+    }
+
+    &--mobal {
+      max-width: 1194px;
+      width: 100%;
+      text-align: right;
+    }
+
+    &--mobal-img {
+      margin-top: 8px;
+      height: 50px;
     }
 
     &--item {
