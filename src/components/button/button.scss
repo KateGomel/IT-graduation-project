@@ -29,6 +29,11 @@
   border: 1px solid colors.$green;
   cursor: pointer;
 
+  @media (max-width: 768px) {
+    font-size: 12px;
+    letter-spacing: 0.24px;
+  }
+
   &:hover {
     color: colors.$white;
     background: colors.$green;
@@ -46,6 +51,11 @@
   background: colors.$green;
   border: none;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    font-size: 12px;
+    letter-spacing: 0.24px;
+  }
 
   &:hover {
     color: colors.$green;
@@ -67,9 +77,26 @@
   height: 50px;
 }
 
+.btn-180 {
+  width: 180px;
+  height: 30px;
+}
+
 .btn-220 {
   width: 220px;
   height: 40px;
+}
+
+.btn-240 {
+  width: 240px;
+  height: 30px;
+}
+
+.btn-240-fs16 {
+  width: 240px;
+  height: 40px;
+  font-size: 16px;
+  letter-spacing: 0.32px;
 }
 
 .btn-270 {

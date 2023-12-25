@@ -7,10 +7,23 @@
   color: colors.$white;
 }
 
+.title-mobal {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1.6px;
+  color: colors.$white;
+}
+
 .title-h3 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.48px;
+}
+
+.title-h3-modal {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.32px;
 }
 
 .title-h4 {
@@ -19,9 +32,26 @@
   letter-spacing: 1.6px;
 }
 
+.title-h4-mobal {
+  font-weight: 900;
+  letter-spacing: 0.96px;
+}
+
 .title-h5 {
   font-weight: 900;
   letter-spacing: 1.28px;
+}
+
+.title-h5-mobal {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 1.12px;
+}
+
+.title-h6-mobal {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
 }
 
 .topline-text {
@@ -36,15 +66,34 @@
   letter-spacing: 0.32px;
 }
 
+.menu-text-modal {
+  color: colors.$font;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+}
+
 .banner__text {
   font-size: 22px;
   letter-spacing: 0.44px;
   color: colors.$white;
 }
 
+.banner__text-mobal {
+  font-size: 16px;
+  letter-spacing: 0.32px;
+  color: colors.$white;
+}
+
 .small-text {
   font-size: 12px;
   letter-spacing: 0.24px;
+}
+
+.breakcrumbs-mobal {
+  font-size: 9px;
+  letter-spacing: 0.18px;
 }
 
 .footer-text {
@@ -54,8 +103,16 @@
   color: colors.$white;
 }
 
+.footer-text-mobal {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.24px;
+  color: colors.$white;
+}
+
 .last-price {
   text-decoration: line-through;
+  color: colors.$red;
 }
 
 .new-price {
@@ -71,12 +128,4 @@
   font-weight: 700;
   letter-spacing: 0.48px;
   color: colors.$green;
-}
-
-.mobal-menu-text {
-  color: colors.$font;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.24px;
 }
