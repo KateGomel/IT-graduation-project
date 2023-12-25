@@ -1,0 +1,68 @@
+@use "../../global/colors";
+
+.mobal-menu {
+  width: 320px;
+
+  &__top-penal {
+    height: 10px;
+    background-color: colors.$blue;
+  }
+
+  &__header {
+    height: 50px;
+    background-color: colors.$green;
+    padding: 10px 20px;
+  }
+
+  &__item {
+    background-color: colors.$white;
+    height: 41px;
+    padding-top: 10px;
+    box-shadow: 0px 1px 0px 0px colors.$darkgrey,
+      0px -1px 0px 0px colors.$darkgrey;
+    border-bottom: 1px solid colors.$darkgrey;
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+
+    &:hover {
+      color: colors.$green;
+    }
+  }
+
+  &__option {
+    gap: 20px;
+  }
+
+  &__contacts {
+    background-color: colors.$blue;
+    color: colors.$white;
+  }
+
+  &__contacts {
+    padding-top: 33px;
+    padding-bottom: 40px;
+  }
+
+  &__address-text {
+    padding-left: 10px;
+  }
+
+  &__phone {
+    padding-top: 9px;
+    &-number {
+      padding-left: 7px;
+    }
+  }
+
+  &__btn {
+    margin-top: 14px;
+    margin-bottom: 40px;
+    margin-left: 19px;
+  }
+
+  &__social {
+    max-width: 119px;
+  }
+}

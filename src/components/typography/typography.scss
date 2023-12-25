@@ -42,7 +42,7 @@
   color: colors.$white;
 }
 
-.breadcrumbs {
+.small-text {
   font-size: 12px;
   letter-spacing: 0.24px;
 }
@@ -71,4 +71,12 @@
   font-weight: 700;
   letter-spacing: 0.48px;
   color: colors.$green;
+}
+
+.mobal-menu-text {
+  color: colors.$font;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
 }
