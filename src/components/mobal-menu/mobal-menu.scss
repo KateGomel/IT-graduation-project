@@ -2,6 +2,18 @@
 
 .mobal-menu {
   width: 320px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+
+  @media (min-width: 768px) {
+    width: 400px;
+  }
+
+  &__active {
+    display: block;
+  }
 
   &__top-penal {
     height: 10px;
