@@ -10,6 +10,7 @@
   width: 270px;
   height: 380px;
   margin-top: 41px;
+  transition: 1s;
 
   &__title {
     width: 220px;
@@ -29,5 +30,8 @@
     padding-left: 49px;
     padding-top: 32px;
     padding-bottom: 25px;
+  }
+  &:hover {
+    transform: scale(1.1);
   }
 }

@@ -11,11 +11,10 @@
   background: colors.$white;
   border: none;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+  transition: 1s;
 
   &:hover {
-    color: colors.$white;
-    background: colors.$green;
-    border: 1px solid colors.$white;
+    transform: scale(1.1);
   }
 }
 
@@ -24,7 +23,7 @@
   flex-shrink: 0;
   font-weight: 700;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0.38px;
   color: colors.$green;
   background: colors.$white;
   border: 1px solid colors.$green;
@@ -42,7 +41,7 @@
   flex-shrink: 0;
   font-weight: 700;
   font-size: 16px;
-  letter-spacing: 1px;
+  letter-spacing: 0.38px;
   color: colors.$white;
   background: colors.$green;
   border: none;

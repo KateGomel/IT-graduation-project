@@ -51,8 +51,16 @@
       width: 100%;
     }
 
-    &--item:hover {
-      color: colors.$green;
+    &--item {
+      transition: 0.3s;
+
+      &-active {
+        color: colors.$green;
+      }
+
+      &:hover {
+        transform: scaleY(1.4);
+      }
     }
 
     &--option {
