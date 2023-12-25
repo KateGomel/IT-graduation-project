@@ -1,6 +1,61 @@
 @use "./colors";
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-up {
+  text-transform: uppercase;
+}
+
+.text-center-up {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: left;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.content-center {
+  justify-content: center;
+}
+
+.general {
+  max-width: 1920px;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
+
 .section-title {
   color: colors.$black;
   margin: 85px 12px -12px;
+}
+
+.section-title-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

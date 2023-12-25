@@ -19,4 +19,4 @@ import "./src/components/call-back/call-back";
 import "./src/components/accordion/accordion";
 import "./src/components/mobal-menu/mobal-menu";
 
-import "./src/global/utils.scss";
+import "./src/global/settings.scss";

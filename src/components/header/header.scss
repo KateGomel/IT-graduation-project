@@ -7,6 +7,7 @@
 
     &--social {
       width: 119px;
+      padding-top: 7px;
     }
 
     &--contact {
@@ -18,8 +19,16 @@
       width: 265px;
     }
 
+    &--address-text {
+      padding-left: 7px;
+    }
+
     &--phone {
       width: 165px;
+    }
+
+    &--phone-number {
+      padding-left: 6px;
     }
   }
 

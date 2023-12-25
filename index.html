@@ -9,33 +9,37 @@
 
   <body>
     <header class="header">
-      <div class="header__topline header__topline--text general flex-between">
+      <div class="header__topline general flex-between">
         <div class="header__topline--social flex-between align-center">
           <a href="#">
-            <img src="/images/icon/facebook wt.png" alt="facebook" />
+            <img src="/images/icon/header-facebook.svg" alt="header-facebook" />
           </a>
           <a href="#">
-            <img src="/images/icon/insta wt.png" alt="instagram" />
+            <img src="/images/icon/header-insta.svg" alt="header-insta" />
           </a>
           <a href="#">
-            <img src="/images/icon/youtube wt.png" alt="youtube" />
+            <img src="/images/icon/header-youtube.svg" alt="header-youtube" />
           </a>
           <a href="#">
-            <img src="/images/icon/tiktok wt.png" alt="tiktok" />
+            <img src="/images/icon/header-tiktok.svg" alt="header-tiktok" />
           </a>
         </div>
-        <div class="header__topline--contact">
+        <div class="header__topline--contact topline-text">
           <div class="header__topline--address flex-between align-center">
-            <a href="#">
-              <img src="/images/icon/address wt.png" alt="address"
-            /></a>
-            92 Street St, New Yoark, NY 10013
+            <a href="#map">
+              <img src="/images/icon/adress-desk.svg" alt="address" />
+              <span class="header__topline--address-text">
+                92 Street St, New Yoark, NY 10013
+              </span>
+            </a>
           </div>
           <div class="header__topline--phone flex-between align-center">
             <a href="tel:+1800235958556">
-              <img src="/images/icon/phone wt.png" alt="phone"
-            /></a>
-            +1 800 235 958 556
+              <img src="/images/icon/phone-cont-desk.svg" alt="phone" />
+              <span class="header__topline--phone-number">
+                +1 800 235 958 556
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -45,30 +49,28 @@
           alt="header-logo"
           class="header__menu--logo"
         />
-        <nav
-          class="header__menu--nav header__menu--text d-xs-none d-cust1-block"
-        >
+        <nav class="header__menu--nav menu-text d-xs-none d-cust1-block">
           <ul class="header__menu--list flex-between align-center">
             <li class="header__menu--item">
-              <a href="#">Home</a>
+              <a href="index.html">Home</a>
             </li>
 
             <li class="header__menu--verticai">
               <img
-                src="/images/header/vertical.png"
-                alt="vertical"
+                src="/images/icon/vertikal.svg"
+                alt="separator"
                 class="header__menu--vertical"
               />
             </li>
 
             <li class="header__menu--item">
-              <a href="#">Products</a>
+              <a href="#product">Products</a>
             </li>
 
             <li class="header__menu--verticai">
               <img
-                src="/images/header/vertical.png"
-                alt="vertical"
+                src="/images/icon/vertikal.svg"
+                alt="separator"
                 class="header__menu--vertical"
               />
             </li>
@@ -79,8 +81,8 @@
 
             <li class="header__menu--verticai">
               <img
-                src="/images/header/vertical.png"
-                alt="vertical"
+                src="/images/icon/vertikal.svg"
+                alt="separator"
                 class="header__menu--vertical"
               />
             </li>
@@ -91,8 +93,8 @@
 
             <li class="header__menu--verticai">
               <img
-                src="/images/header/vertical.png"
-                alt="vertical"
+                src="/images/icon/vertikal.svg"
+                alt="separator"
                 class="header__menu--vertical"
               />
             </li>
@@ -103,8 +105,8 @@
 
             <li class="header__menu--verticai">
               <img
-                src="/images/header/vertical.png"
-                alt="vertical"
+                src="/images/icon/vertikal.svg"
+                alt="separator"
                 class="header__menu--vertical"
               />
             </li>
@@ -115,8 +117,8 @@
 
             <li class="header__menu--verticai">
               <img
-                src="/images/header/vertical.png"
-                alt="vertical"
+                src="/images/icon/vertikal.svg"
+                alt="separator"
                 class="header__menu--vertical"
               />
             </li>
@@ -129,13 +131,15 @@
 
         <div class="header__menu--option flex-between">
           <img
-            src="/images/header/kart.png"
-            alt="kart"
+            src="/images/icon/card-desk.svg"
+            alt="cart"
             class="header__menu--cart"
           />
-          <form action="#">
-            <button class="header__menu--btn btn-gr btn-170">Call back</button>
-          </form>
+          <a
+            href="#"
+            class="header__menu--btn btn-gr btn-170 flex-center align-center"
+            >Call back</a
+          >
         </div>
       </div>
     </header>
@@ -154,7 +158,7 @@
               <div class="banner__trigger-text">
                 <p class="banner__text banner__text-tr1">
                   <img
-                    src="./images/icon/vector-v.png"
+                    src="/images/icon/ticking-desk.svg"
                     alt="trigger"
                     class="banner__trigger-img"
                   />
@@ -162,7 +166,7 @@
                 </p>
                 <p class="banner__text banner__text-tr2">
                   <img
-                    src="./images/icon/vector-v.png"
+                    src="/images/icon/ticking-desk.svg"
                     alt="trigger"
                     class="banner__trigger-img"
                   />
@@ -170,15 +174,15 @@
                 </p>
                 <p class="banner__text banner__text-tr3">
                   <img
-                    src="./images/icon/vector-v.png"
+                    src="/images/icon/ticking-desk.svg"
                     alt="trigger"
                     class="banner__trigger-img"
                   />
                   <strong>Restores intestinal microflora</strong>
                 </p>
-                <form action="#">
-                  <button class="banner__btn">Go catalog</button>
-                </form>
+                <a href="#" class="banner__btn flex-center align-center"
+                  >Go catalog</a
+                >
               </div>
             </div>
           </div>
@@ -206,9 +210,9 @@
               <div class="mission__text">
                 <h3 class="mission__text--title title-h3">
                   <img
-                    src="./images/icon/vector-s2.png"
-                    alt="apostrof"
-                    class="mission__text--apostrof"
+                    src="/images/icon/quotes-desk.svg"
+                    alt="quotes"
+                    class="mission__text--quotes"
                   />
                   Your health starts in your gut
                 </h3>
@@ -222,7 +226,7 @@
           </div>
         </div>
       </section>
-      <section class="products general">
+      <section id="product" class="products general">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
@@ -417,7 +421,9 @@
           <div class="row">
             <div class="col-4">
               <div class="map__contacts">
-                <p class="map__adress">92 Street St, New Yoark, NY 10013</p>
+                <p id="map" class="map__adress">
+                  92 Street St, New Yoark, NY 10013
+                </p>
                 <p class="map__phone">+1 800 235 958 556</p>
               </div>
             </div>
@@ -436,7 +442,7 @@
             <h5 class="footer__title title-h5 text-up">menu</h5>
             <nav class="footer-text">
               <ul>
-                <li>Products</li>
+                <li><a href="#product"> Products</a></li>
                 <li>Restore Your Microbiome</li>
                 <li>Health Issues</li>
                 <li>FAQ</li>
