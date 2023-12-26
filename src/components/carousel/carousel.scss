@@ -1,5 +1,14 @@
 @use "../../global/colors";
 
 .carousel {
-  min-height: 881px;
+  height: 881px;
+  padding-left: 0;
+  padding-right: 0;
+
+  &__slider {
+    max-height: 578px;
+    height: 100%;
+    margin-top: 54px;
+    margin-bottom: 100px;
+  }
 }

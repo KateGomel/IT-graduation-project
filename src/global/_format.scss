@@ -55,8 +55,8 @@ a {
 }
 
 .section-title {
-  color: colors.$black;
-  margin: 85px 12px -12px;
+  color: colors.$black !important;
+  margin: 84px 12px -12px;
 }
 
 .section-title-img {
