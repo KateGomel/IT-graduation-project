@@ -74,4 +74,30 @@
   &__btn {
     margin-top: 15px;
   }
+
+  &__text-invisible {
+    display: none;
+    transition: 2s;
+  }
+}
+
+#check {
+  display: none;
+}
+
+.label2 {
+  display: none;
+}
+
+#check:checked ~ .story__text-invisible {
+  display: block;
+}
+
+#check:checked ~ .label1 {
+  display: none;
+}
+
+#check:checked ~ .label2 {
+  display: flex;
+  justify-content: center;
 }
