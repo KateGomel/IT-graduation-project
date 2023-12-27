@@ -14,10 +14,10 @@
   &__text {
     margin-left: -27px;
     margin-top: 120px;
+    color: colors.$white;
 
     &--title {
       background-color: colors.$blue;
-      color: colors.$white;
       display: flex;
       align-items: center;
       padding-top: 20px;
@@ -32,7 +32,6 @@
 
     &--article {
       background-color: colors.$green;
-      color: colors.$white;
       padding: 21px 30px;
       letter-spacing: 0.32px;
     }
@@ -51,6 +50,47 @@
     @media (max-width: 992px) {
       padding-left: 30px;
       padding-right: 30px;
+    }
+  }
+}
+
+.mission-mobal {
+  max-width: 768px;
+  height: auto;
+
+  &__foto {
+    width: 100%;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  &__text {
+    color: colors.$white;
+    margin-bottom: 40px;
+
+    &--quotes {
+      padding-bottom: 21px;
+      @media (min-width: 390px) {
+        padding-bottom: 4px;
+      }
+      @media (min-width: 540px) {
+        padding-bottom: 3px;
+      }
+      @media (min-width: 650px) {
+        padding-bottom: 0;
+      }
+    }
+
+    &--title {
+      background-color: colors.$blue;
+      padding: 10px 54px 14px 20px;
+      display: flex;
+      gap: 20px;
+    }
+
+    &--article {
+      background-color: colors.$green;
+      padding: 13px 20px;
     }
   }
 }
