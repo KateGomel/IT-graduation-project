@@ -6,6 +6,9 @@
   border: 1px solid colors.$darkgrey;
   background: colors.$lightgrey;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1) inset;
+  &:focus {
+    border: 1px solid colors.$font2;
+  }
 }
 
 .w280 {
