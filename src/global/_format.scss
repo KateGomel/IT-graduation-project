@@ -40,6 +40,10 @@ a {
 .content-center {
   justify-content: center;
 }
+.content-column {
+  flex-direction: column;
+  gap: 10px;
+}
 
 .general {
   max-width: 1920px;

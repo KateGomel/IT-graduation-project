@@ -1,11 +1,19 @@
 @use "../../global/colors";
 
 .products {
-  min-height: 782px;
   background-color: colors.$lightgrey;
   padding-bottom: 100px;
 
   &__btn {
     margin-top: 50px;
+  }
+}
+
+.products-mobal {
+  background-color: colors.$lightgrey;
+  margin-bottom: 21px;
+
+  &__title {
+    margin-bottom: 12px;
   }
 }
