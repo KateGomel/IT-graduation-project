@@ -1,9 +1,10 @@
 import "reset-css";
 import "swiper/css";
 
+import "./src/components/typography/typography";
+
 import "./main.scss";
 
-import "./src/components/typography/typography";
 import "./src/components/grid/grid";
 import "./src/components/input/input";
 import "./src/components/button/button";
