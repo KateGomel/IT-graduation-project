@@ -93,3 +93,20 @@
     }
   }
 }
+
+.header-mobal {
+  &__top-penal {
+    height: 10px;
+    background-color: colors.$blue;
+  }
+
+  &__header {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__option {
+    gap: 20px;
+  }
+}
