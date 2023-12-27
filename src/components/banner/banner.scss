@@ -41,3 +41,38 @@
     padding-right: 7px;
   }
 }
+
+.banner-mobal {
+  max-width: 768px;
+  height: auto;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__h1 {
+    margin-top: -6px;
+    background-color: colors.$blue;
+    padding-top: 17px;
+    padding-bottom: 10px;
+  }
+
+  &__sp1 {
+    background-color: colors.$green;
+    padding-left: 5px;
+    padding-right: 2px;
+    margin-right: -2px;
+  }
+  &__sp2 {
+    padding-left: 5px;
+  }
+  &__trigger {
+    background-color: colors.$green;
+    padding-top: 13px;
+    padding-bottom: 10px;
+  }
+
+  &__content {
+    padding-left: 3px;
+  }
+}
