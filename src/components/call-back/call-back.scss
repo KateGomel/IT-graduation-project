@@ -32,7 +32,8 @@
   &__input-2 {
     font-family: "Gotham Pro";
     font-size: 16px;
-    &:focus {
+    &:focus,
+    &:active {
       border: 1px solid colors.$font2;
     }
   }
