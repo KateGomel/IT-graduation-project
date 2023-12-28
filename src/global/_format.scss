@@ -60,6 +60,18 @@ a {
   padding-right: 20px;
 }
 
+.general-mobal-sect {
+  min-width: 320px;
+  width: 100%;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.section-title {
+  color: colors.$black;
+  margin: 84px 12px -12px;
+}
+
 .section-title {
   color: colors.$black;
   margin: 84px 12px -12px;
