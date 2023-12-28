@@ -11,10 +11,15 @@
     margin-top: 54px;
     margin-bottom: 100px;
   }
-}
-.carousel-swiper {
+
   &__img {
     width: 100%;
     height: auto;
+  }
+}
+.carousel-mobal {
+  &__slider {
+    margin-top: 16px;
+    margin-bottom: 33px;
   }
 }
